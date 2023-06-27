@@ -41,5 +41,4 @@ const Navbar=({ selectedPage, setSelectedPage})=>{
         </nav>
     );
 };
-
 export default Navbar;
