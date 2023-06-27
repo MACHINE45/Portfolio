@@ -1,9 +1,8 @@
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
+  const [selectedPage, setSelectedPage]=useState
+  return (<div className="App"> </div>
   );
 }
 
