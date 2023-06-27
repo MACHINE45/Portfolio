@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const Link = ({ page, selectedPage, setSelectedPage})=>{
-    const lowerCasePage = page.tolowerCase();
+    const lowerCasePage = page.toLowerCase();
     return (
         <AnchorLink
             className={`${selectedPage === lowerCasePage ? "text-yellow" : ""}
@@ -41,5 +41,6 @@ const Navbar=({ selectedPage, setSelectedPage})=>{
         </nav>
     );
 };
+
 
 export default Navbar;
