@@ -38,6 +38,8 @@ const Navbar=({ selectedPage, setSelectedPage})=>{
                     <div></div>
                 )}
             </div>
+
+            
         </nav>
     );
 };
