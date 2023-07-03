@@ -33,13 +33,35 @@ const Navbar=({ selectedPage, setSelectedPage})=>{
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                         />
+                        <Link 
+                        page="Skills"
+                        selectedPage={selectedPage}
+                        setSelectedPage={setSelectedPage}
+                        />
+                        <Link 
+                        page="Projects"
+                        selectedPage={selectedPage}
+                        setSelectedPage={setSelectedPage}
+                        />
+                        <Link 
+                        page="Testimonials"
+                        selectedPage={selectedPage}
+                        setSelectedPage={setSelectedPage}
+                        />
+                        <Link 
+                        page="Contact"
+                        selectedPage={selectedPage}
+                        setSelectedPage={setSelectedPage}
+                        />
                     </div>
                 ) : (
-                    <div></div>
+                    <button
+                    className=
+                    >
+                        <image alt="menu-icon" src="../assets/menu-icon.svg" />
+                    </button>
                 )}
             </div>
-
-            
         </nav>
     );
 };
